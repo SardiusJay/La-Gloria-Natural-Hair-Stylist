@@ -24,7 +24,8 @@ nav {
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 .nav-links {
@@ -142,11 +143,6 @@ button:hover {
     background-color: #ddd;
 }
 
-
-/* styles.css */
-
-
-  
   .featured-offers {
     text-align: center;
     padding: 50px 20px;
@@ -201,7 +197,46 @@ button:hover {
     margin-bottom: 20px;
   }
   
-
+  .portfolio {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
 
 /*Footer section */
 .footer {
