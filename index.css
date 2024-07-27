@@ -51,7 +51,7 @@ nav {
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url('hero-image.jpg');
+    background-image: url('logo.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -142,6 +142,65 @@ button:hover {
     background-color: #ddd;
 }
 
+
+/* styles.css */
+
+
+  
+  .featured-offers {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .offers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .offer {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .offer:hover {
+    transform: translateY(-10px);
+  }
+  
+  .offer img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .offer h2 {
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+  }
+  
+  .subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
 
 
 /*Footer section */
