@@ -340,6 +340,83 @@ button:hover {
     background-color: #555;
   }
 
+  
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #fff;
+  }
+  
+  .contact-info {
+    width: 45%;
+  }
+  
+  .contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .contact-item p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .contact-item small {
+    color: #666;
+  }
+  
+  .contact-form {
+    width: 45%;
+  }
+  
+  .contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
 /*Footer section */
 .footer {
     background-color: rgb(44, 120, 206);
