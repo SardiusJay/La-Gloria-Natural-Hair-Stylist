@@ -74,9 +74,9 @@ section{
   padding: 2rem 9%;
 }
 .heading{
-  font-size: 3.5rem;
+  font-size: 2rem;
   color: rgb(32, 32, 32);
-  font-weight: 800;
+  font-weight: 600;
   text-align: center;
 }
 .heading span{
@@ -89,7 +89,7 @@ header .logo{
   color: #0E2431;
 }
 header .logo i {
-  font-size: 2.2rem;
+  font-size: 1rem;
 }
 header .logo:hover {
   color: #0f46a2;
